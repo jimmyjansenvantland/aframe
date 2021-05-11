@@ -8,14 +8,33 @@
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <a-scene background="color: #333333">
+    <a-scene background="color: #F0F0FF">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
+        position="0 2 -5"
+        width="2"
+        height="1"
+        depth="4"
         color="#BBAA33" 
-        shadow>
+        shadow
+        rotation="20 0 0"
+        scale = "2 1 1">
       </a-box>
+      <a-sphere id="mySphere"
+        position=" 5 2 -5"
+        color="#1825b8"
+      
+      >
+
+      </a-sphere>
+
+      <!--<a-entity id="myText" 
+        text="value: Hello World; color: #9218b8;" 
+        position="0 2 -5"
+        width="2"
+        height="1"
+        depth="4"
+        >-->
+      </a-entity>
     </a-scene>
   </body>
 </html>
