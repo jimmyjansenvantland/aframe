@@ -10,3 +10,8 @@ function spin(){
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
+
+myOtherBox.addEventListener('mouseenter', function(){
+	rotationSpeed = 0.01;
+	console.log('mouse enter');
+});
